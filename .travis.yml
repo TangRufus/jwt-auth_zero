@@ -1,0 +1,17 @@
+language: ruby
+
+rvm:
+  - ruby-head
+  - 2.3.1
+
+gemfile:
+  - gemfiles/jwt_1.5.gemfile
+  - gemfiles/jwt_head.gemfile
+
+matrix:
+  fast_finish: true
+  allow_failures:
+    - gemfile: gemfiles/jwt_head.gemfile
+
+notifications:
+  email: false
