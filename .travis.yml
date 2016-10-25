@@ -13,5 +13,14 @@ matrix:
   allow_failures:
     - gemfile: gemfiles/jwt_head.gemfile
 
+script:
+  - bundle exec rake test
+  - bundle exec rake rubocop
+
 notifications:
   email: false
+
+# Docker Infrastructure
+sudo: false
+
+cache: bundler
