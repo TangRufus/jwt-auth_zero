@@ -1,3 +1,7 @@
+sudo: false
+
+cache: bundler
+
 language: ruby
 
 rvm:
@@ -20,7 +24,7 @@ script:
 notifications:
   email: false
 
-# Docker Infrastructure
-sudo: false
-
-cache: bundler
+addons:
+  code_climate:
+    repo_token:
+      secure: UdmaMlyqc190HwuEZR0nvqDYDzSTnarpEbU+YYk0o9ToG6Ir8enzuC8WIdjSnu5/ZHmlVxXnTrFu4Lt0qmNYN5O2FuVfBoC1qtzCb+KIBdlR8HdBdNfNEEctd31tFcY718TA0z1zIiyGLw8PYUr61pMzwCD6+laPUcj4Dafh/DVP+1NwW4b9VaZ5zDUZXkQ08k5mTJRFroPL6qBfD0wYfGNFpu+3pgWot8g0hL9RnJEvklxsUuX1ouV6/CABv1tFrX5gzqVM+FO/0k7OUR6g/K86q63roHrKzy5bdGF8JyODQEyD1iYqL5Dh+YcRaUC2gKvCSeijvxgxrXLczU2jDdSTan7ByeSKwGnKz0RJNrFYeLGUHV1G5wuc37tXwkbnVREsg7OyOmnzt5/IdSYSzFIBwopf4HsJiX13nb3DjdTXvGG7dkoO3XLa/YHsKpFbhQQhmjzFjejlZ5XOlzYuxEp1CKo3I/evZqzAwAzKdOGrqSAtlVG4onDf67yi4Gtr2Z1L4ybIA//XWdn+2gQ8B/Gj10AvT/tQ2Im/b1mcf0RhoRGqeOvI1nyXGfR8Uhsmg4295gDZ0m6oUhzuFaVewv3Gbr3lfbuXZsSmg2qlWndYxgCF/8+clPtHPajKSXE6/hqaKD7LcJcr0gnr67AGL60I/NftcU3GnT3v7Yfb4/A=

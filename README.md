@@ -1,12 +1,11 @@
 # JWT::AuthZero
 
 [![Gem Version](https://badge.fury.io/rb/jwt-auth_zero.svg)](http://badge.fury.io/rb/jwt-auth_zero)
-[![Code Climate GPA](https://codeclimate.com/github/tangrufus/jwt-auth_zero.svg)](https://codeclimate.com/github/tangrufus/jwt-auth_zero)
-[![Code Climate Coverage](https://codeclimate.com/github/tangrufus/jwt-auth_zero/coverage.svg)](https://codeclimate.com/github/tangrufus/jwt-auth_zero)
-[![Gemnasium Status](https://gemnasium.com/tangrufus/jwt-auth_zero.svg)](https://gemnasium.com/tangrufus/jwt-auth_zero)
-[![Travis CI Status](https://secure.travis-ci.org/tangrufus/jwt-auth_zero.svg)](https://travis-ci.org/tangrufus/jwt-auth_zero)
+[![Code Climate GPA](https://codeclimate.com/github/TangRufus/jwt-auth_zero.svg)](https://codeclimate.com/github/TangRufus/jwt-auth_zero)
+[![Code Climate Coverage](https://codeclimate.com/github/TangRufus/jwt-auth_zero/coverage.svg)](https://codeclimate.com/github/TangRufus/jwt-auth_zero)
+[![Dependency Status](https://gemnasium.com/badges/github.com/TangRufus/jwt-auth_zero.svg)](https://gemnasium.com/github.com/TangRufus/jwt-auth_zero)
+[![Travis CI Status](https://secure.travis-ci.org/TangRufus/jwt-auth_zero.svg)](https://travis-ci.org/TangRufus/jwt-auth_zero)
 [![Patreon](https://img.shields.io/badge/patreon-donate-brightgreen.svg)](https://www.patreon.com/)
-
 
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
@@ -75,7 +74,7 @@ Read [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 # License
 
-Copyright (c) 2016 [Tang Rufus](mailto:tangrufus@gmail.com).
+Copyright (c) 2016 [Tang Rufus](mailto:TangRufus@gmail.com).
 Read the [LICENSE](LICENSE.md) for details.
 
 # History
@@ -85,4 +84,4 @@ Built with [Gemsmith](https://github.com/bkuhlmann/gemsmith).
 
 # Credits
 
-Developed by [Tang Rufus](https://www.github.com/tangrufus) at [Hearda](https://www.hearda.com).
+Developed by [Tang Rufus](https://www.github.com/TangRufus) at [Hearda](https://www.hearda.com).
