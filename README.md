@@ -39,7 +39,7 @@
 
 For a secure install, type the following (recommended):
 
-    gem cert --add <(curl --location --silent /gem-public.pem)
+    gem cert --add <(curl -Ls https://raw.github.com/TangRufus/jwt-auth_zero/blob/master/certs/tangrufus.pem)
     gem install jwt-auth_zero --trust-policy MediumSecurity
 
 NOTE: A HighSecurity trust policy would be best but MediumSecurity enables signed gem verification while
