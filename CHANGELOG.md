@@ -2,6 +2,7 @@
 
 - Update gem signing certificate link in README.md
 - Update badges in README.md.
+- Fix: JWT::AuthZero delegates to class method instead of instance variable
 
 # v0.2.0 (2016-10-25)
 
