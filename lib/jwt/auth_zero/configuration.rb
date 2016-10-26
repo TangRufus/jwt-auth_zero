@@ -6,7 +6,7 @@ module JWT
       extend Forwardable
 
       attr_writer :configuration
-      def_delegators :@configuration, :client_secret, :decode_options
+      def_delegators :configuration, :client_secret, :decode_options
 
       def configuration
         @configuration ||= Configuration.new

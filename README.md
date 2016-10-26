@@ -5,7 +5,7 @@
 [![Code Climate Coverage](https://codeclimate.com/github/TangRufus/jwt-auth_zero/coverage.svg)](https://codeclimate.com/github/TangRufus/jwt-auth_zero)
 [![Dependency Status](https://gemnasium.com/badges/github.com/TangRufus/jwt-auth_zero.svg)](https://gemnasium.com/github.com/TangRufus/jwt-auth_zero)
 [![Travis CI Status](https://secure.travis-ci.org/TangRufus/jwt-auth_zero.svg)](https://travis-ci.org/TangRufus/jwt-auth_zero)
-[![Patreon](https://img.shields.io/badge/patreon-donate-brightgreen.svg)](https://www.patreon.com/)
+[![Patreon](https://img.shields.io/badge/patreon-donate-brightgreen.svg)](https://www.patreon.com/tangrufus)
 
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
