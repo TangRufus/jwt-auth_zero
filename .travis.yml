@@ -6,11 +6,14 @@ language: ruby
 
 rvm:
   - ruby-head
-  - 2.3.1
+  - 2.3.2
+  - 2.2.6
 
 gemfile:
   - gemfiles/jwt_1.5.gemfile
   - gemfiles/jwt_head.gemfile
+
+bundler_args: --without tools --jobs=3 --retry=3
 
 matrix:
   fast_finish: true
@@ -19,7 +22,7 @@ matrix:
 
 script:
   - bundle exec rake test
-  - bundle exec rake rubocop
+  - bundle exec rubocop
 
 notifications:
   email: false

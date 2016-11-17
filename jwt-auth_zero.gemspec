@@ -18,12 +18,12 @@ Gem::Specification.new do |spec|
   spec.signing_key = File.expand_path('~/.ssh/gem-private_key.pem')
   spec.cert_chain  = ['certs/tangrufus.pem']
 
-  spec.add_dependency 'jwt', '>= 1.3.0', '< 2'
+  spec.required_ruby_version = '>= 2.2.0'
+  spec.add_dependency 'jwt', '~> 1.5', '>= 1.5.6'
 
   spec.add_development_dependency 'appraisal', '~> 2.1', '>= 2.1.0'
   spec.add_development_dependency 'bundler', '~> 1.12'
   spec.add_development_dependency 'rake', '~> 11.0'
-  spec.add_development_dependency 'gemsmith', '~> 7.7'
   spec.add_development_dependency 'rubocop', '~> 0.40'
   spec.add_development_dependency 'codeclimate-test-reporter', '~> 0.6.0'
   spec.add_development_dependency 'minitest', '~> 5.9', '>= 5.9.1'
