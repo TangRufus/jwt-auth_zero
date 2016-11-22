@@ -1,8 +1,11 @@
 # frozen_string_literal: true
 
-unless ENV['TRAVIS']
+begin
   require 'gemsmith/rake/setup'
-  Dir.glob('lib/tasks/*.rake').each { |file| load file }
+rescue LoadError => error
+  puts error.message
 end
+
+Dir.glob('lib/tasks/*.rake').each { |file| load file }
 
 task default: %w(test rubocop)
